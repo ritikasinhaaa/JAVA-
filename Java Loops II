@@ -1,0 +1,34 @@
+import java.util.*;
+import java.io.*;
+import java.lang.Math;
+
+
+class Solution{
+    public static void main(String []args){
+        Scanner in = new Scanner(System.in);
+        int t=in.nextInt();
+        
+        for(int i=0; i<t; i++){
+            int a = in.nextInt();
+            int b = in.nextInt();
+            int n = in.nextInt();
+            
+            int temp=a;
+            for(int j=0; j<n; j++)
+            {
+                temp+=b*Math.pow(2,j);
+                System.out.print(temp+" ");
+            }
+            System.out.println();
+        }
+    }
+}
+
+
+
+
+Full Stack Development
+SQL & Relational Databases
+Frameworks:- Node.JS, React.JS, Angular.JS
+REST API using Spring, Spark, Django, Mulesoft, API Gateway
+Programming/Scripting:- Python, Golang, Java, Scala, JavaScript
